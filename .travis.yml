@@ -3,5 +3,11 @@
 language: R
 sudo: false
 cache: packages
+os:
+    - linux
+    - osx
+compiler:
+    - gcc
+    - clang
 after_success:
     - Rscript -e 'covr::codecov()'
