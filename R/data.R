@@ -1,4 +1,6 @@
-#' Geographical location and Iata, ICAO codes for 8965 international airports.
+#' Data_IATA
+#'
+#'  Geographical location and Iata, ICAO codes for 8965 international airports
 #'
 #' @format A data frame with 8965 rows and 6 variables:
 #' \describe{

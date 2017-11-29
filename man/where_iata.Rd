@@ -2,7 +2,7 @@
 % Please edit documentation in R/where_iata.R
 \name{where_iata}
 \alias{where_iata}
-\title{Where is that IATA from?}
+\title{IATA localization}
 \usage{
 where_iata(IATA_code)
 }

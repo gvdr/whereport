@@ -1,4 +1,4 @@
-#' Where is that IATA from?
+#' IATA localization
 #'
 #' where_iata answers the question: "Where is located the airport with this IATA code?".
 #'
@@ -16,10 +16,11 @@
 #' where_iata(c("YVR","CHC"))
 #'
 where_iata <- function(IATA_code) {
-
   IATA_here <- dplyr::filter(Data_IATA, IATA %in% IATA_code)
 
   if(nrow(IATA_here) == 0) stop("IATA code(s) not found")
 
   return(IATA_here)
 }
+
+globalVariables(c("Data_IATA", "IATA"))

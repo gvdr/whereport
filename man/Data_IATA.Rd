@@ -3,7 +3,7 @@
 \docType{data}
 \name{Data_IATA}
 \alias{Data_IATA}
-\title{Geographical location and Iata, ICAO codes for 8965 international airports.}
+\title{Data_IATA}
 \format{A data frame with 8965 rows and 6 variables:
 \describe{
   \item{IATA}{IATA code of the airport}
@@ -20,6 +20,6 @@
 Data_IATA
 }
 \description{
-Geographical location and Iata, ICAO codes for 8965 international airports.
+Geographical location and Iata, ICAO codes for 8965 international airports
 }
 \keyword{datasets}

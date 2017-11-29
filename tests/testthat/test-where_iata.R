@@ -1,6 +1,6 @@
 context("test-where_iata.R")
 
-test_that("retrieval works", {
+test_that("where_iata retrieval works", {
   expect_equal(where_iata("CHC"),
                data.frame(stringsAsFactors=FALSE,
                           IATA = "CHC",
@@ -10,7 +10,7 @@ test_that("retrieval works", {
                           Time = "UTC+12:00",
                           DST = "Sep-Apr")
                )
-  testthat::expect_equal(where_iata("YVR"),
+  expect_equal(where_iata("YVR"),
                data.frame(stringsAsFactors=FALSE,
                           IATA = "YVR",
                           ICAO = "CYVR",
@@ -19,5 +19,10 @@ test_that("retrieval works", {
                           Time = NA_character_,
                           DST = NA_character_)
                )
+  }
+)
+
+test_that("where_iata retrieval breaks", {
+  expect_error(where_iata("aaa"))
   }
 )
