@@ -1,6 +1,6 @@
 Package: whereport
 Title: Geolocalization of IATA codes
-Version: 0.0.0.9000
+Version: 0.1
 Authors@R: person("Giulio Valentino", "Dalla Riva", email = "me@gvdallariva.net", role = c("aut", "cre"))
 Description: Retrieve geographical information for airports using their IATA or ICAO codes.
 Depends: R (>= 3.4.2)
@@ -8,8 +8,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
-    testthat,
-    covr
+    testthat (>= 1.0.2),
+    covr (>= 3.0.1)
 Imports: 
-    dplyr
+    dplyr (>= 0.7.4)
 RoxygenNote: 6.0.1
