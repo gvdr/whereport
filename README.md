@@ -1,4 +1,5 @@
 [![Travis build status](https://travis-ci.org/gvdr/whereport.svg?branch=master)](https://travis-ci.org/gvdr/whereport)
+[![Coverage status](https://codecov.io/gh/gvdr/whereport/branch/master/graph/badge.svg)](https://codecov.io/github/gvdr/whereport?branch=master)
 
 # whereport
 
