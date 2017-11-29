@@ -19,8 +19,24 @@ devtools::install_github("gvdr/whereport")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+`whereport` goes well with `ggmap`. You can do something like:
 
 ``` r
-## basic example code
+library(dplyr)
+library(whereport)
+library(ggmap)
+
+where_iata(c("YVR","CHC")) %>%
+  mutate_geocode(Location_served) %>%
+  select(Airport_name, lon, lat)
 ```
+and get a nice logitude langitude thingy ready for some spatial graphviz.
+
+```r
+#> Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Christchurch,%20New%20Zealand&sensor=false
+#> Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Vancouver,%20British%20Columbia,%20Canada&sensor=false
+#>                         Airport_name       lon       lat
+#> 1 Christchurch International Airport  172.6362 -43.53205
+#> 2    Vancouver International Airport -123.1207  49.28273
+```
+
