@@ -2,7 +2,7 @@
 % Please edit documentation in R/where_iata.R
 \name{where_iata}
 \alias{where_iata}
-\title{where_iata}
+\title{Where is that IATA from?}
 \usage{
 where_iata(IATA_code)
 }
@@ -15,9 +15,6 @@ A dataframe containing IATA code, ICAO codes, Airport name, Location served, Tim
 Some of the fields may be `na`.
 }
 \description{
-where_iata
-}
-\details{
 where_iata answers the question: "Where is located the airport with this IATA code?".
 }
 \examples{

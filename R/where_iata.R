@@ -1,6 +1,4 @@
-#' where_iata
-#'
-#' @details
+#' Where is that IATA from?
 #'
 #' where_iata answers the question: "Where is located the airport with this IATA code?".
 #'
