@@ -1,0 +1,14 @@
+Package: whereport
+Title: Retrieve geographical information for airports using IATA codes.
+Version: 0.0.0.9000
+Authors@R: person("Giulio Valentino", "Dalla Riva", email = "me@gvdallariva.net", role = c("aut", "cre"))
+Description: Retrieve geographical information for airports using IATA codes.
+Depends: R (>= 3.4.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+Imports: 
+    dplyr
+RoxygenNote: 6.0.1
