@@ -1,5 +1,5 @@
 Package: whereport
-Title: Geolocalization of IATA codes
+Title: Geolocalization Of IATA Codes
 Version: 0.1
 Authors@R: person("Giulio Valentino", "Dalla Riva", email = "me@gvdallariva.net", role = c("aut", "cre"))
 Description: Retrieve geographical information for airports using their IATA or ICAO codes.

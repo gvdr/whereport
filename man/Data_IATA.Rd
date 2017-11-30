@@ -14,7 +14,7 @@
   \item{DST}{Months in which the Daylight Saving Time is observed}
 }}
 \source{
-\url{https://en.wikipedia.org/wiki/List_of_airports_by_IATA_code/}
+\url{https://en.wikipedia.org/wiki/List_of_airports_by_IATA_and_ICAO_code}
 }
 \usage{
 Data_IATA

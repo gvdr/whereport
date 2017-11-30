@@ -4,7 +4,7 @@
 \name{whereport-package}
 \alias{whereport}
 \alias{whereport-package}
-\title{whereport: Geolocalization of IATA codes}
+\title{whereport: Geolocalization Of IATA Codes}
 \description{
 Retrieve geographical information for airports using their IATA or ICAO codes.
 }

@@ -4,9 +4,11 @@
 
 # whereport
 
-> Where is that airport?
+> Where is that airport?  
 
 The goal of whereport is to provide a very light function to retrieve geographical information from airport's IATA codes.
+
+whereport? thereport! An official candidate to be the package with the worst pun-in-title.
 
 ## Installation
 
